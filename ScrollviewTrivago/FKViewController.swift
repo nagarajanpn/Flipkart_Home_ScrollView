@@ -27,6 +27,7 @@ class FKViewController: UIViewController {
     
     var img:Images!
     var myImages:[String]!
+    var myRealImages:[String]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,6 +37,8 @@ class FKViewController: UIViewController {
         
 //       img.images = img.addImages(imgs: ["1","2"])
         myImages = ["1","2","3","4","1","2","3","4","1","2","3","2","3","4","1","2","3","4","1","2","3"]
+        //FOR CHECK 
+        myRealImages =  ["1","2","3","4","1","2","3","4","1","2","3","2","3","4","1","2","3","4","1","2","3"]
     }
     
 
