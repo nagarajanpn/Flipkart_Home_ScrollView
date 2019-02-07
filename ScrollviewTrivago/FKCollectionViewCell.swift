@@ -9,5 +9,16 @@
 import UIKit
 
 class FKCollectionViewCell: UICollectionViewCell {
+    var ig:Images!
+    @IBOutlet var FK_ImageView: UIImageView!
+    
+    func addImages()  {
+        
+        for i in ig.imgs{
+            FK_ImageView.image = UIImage(named:i)
+        }
+        
+        
+    }
     
 }

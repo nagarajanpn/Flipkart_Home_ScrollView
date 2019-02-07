@@ -12,6 +12,9 @@
 		AE31180F21DE0D9C00F37154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE31180D21DE0D9C00F37154 /* Main.storyboard */; };
 		AE31181121DE0D9E00F37154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE31181021DE0D9E00F37154 /* Assets.xcassets */; };
 		AE31181421DE0D9E00F37154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE31181221DE0D9E00F37154 /* LaunchScreen.storyboard */; };
+		AE70CFF9220C223A007214E2 /* FKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70CFF8220C223A007214E2 /* FKViewController.swift */; };
+		AE70CFFB220C355A007214E2 /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70CFFA220C355A007214E2 /* helper.swift */; };
+		AE70CFFD220C38C6007214E2 /* FKCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70CFFC220C38C6007214E2 /* FKCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		AE31181021DE0D9E00F37154 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE31181321DE0D9E00F37154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE31181521DE0D9E00F37154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE70CFF8220C223A007214E2 /* FKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FKViewController.swift; sourceTree = "<group>"; };
+		AE70CFFA220C355A007214E2 /* helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
+		AE70CFFC220C38C6007214E2 /* FKCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FKCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				AE31180921DE0D9C00F37154 /* AppDelegate.swift */,
+				AE70CFFC220C38C6007214E2 /* FKCollectionViewCell.swift */,
+				AE70CFFA220C355A007214E2 /* helper.swift */,
 				AE31180B21DE0D9C00F37154 /* ViewController.swift */,
+				AE70CFF8220C223A007214E2 /* FKViewController.swift */,
 				AE31180D21DE0D9C00F37154 /* Main.storyboard */,
 				AE31181021DE0D9E00F37154 /* Assets.xcassets */,
 				AE31181221DE0D9E00F37154 /* LaunchScreen.storyboard */,
@@ -137,6 +146,9 @@
 			files = (
 				AE31180C21DE0D9C00F37154 /* ViewController.swift in Sources */,
 				AE31180A21DE0D9C00F37154 /* AppDelegate.swift in Sources */,
+				AE70CFFD220C38C6007214E2 /* FKCollectionViewCell.swift in Sources */,
+				AE70CFF9220C223A007214E2 /* FKViewController.swift in Sources */,
+				AE70CFFB220C355A007214E2 /* helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G25JW4F7DS;
 				INFOPLIST_FILE = ScrollviewTrivago/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +316,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G25JW4F7DS;
 				INFOPLIST_FILE = ScrollviewTrivago/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

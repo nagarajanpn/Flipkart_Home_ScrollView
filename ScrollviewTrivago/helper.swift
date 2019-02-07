@@ -7,3 +7,11 @@
 //
 
 import Foundation
+struct Images {
+    var images:[String]? = nil
+    var imgs = ["1","2","3"]
+    
+//    mutating func addImages(imgs:[String]){
+//        images += imgs
+//    }
+}
