@@ -16,6 +16,8 @@ class FKCollectionViewCell: UICollectionViewCell {
         
         for i in ig.imgs{
             FK_ImageView.image = UIImage(named:i)
+            
+            /// ,u cjecp[d
         }
         
         
